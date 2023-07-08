@@ -8,8 +8,7 @@ return (
   <div className="app">
     <Router>
       <Routes>
-        <Route path="/" element={<Header />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<><Header /><Home /></>} />
       </Routes>
     </Router>
   </div>
